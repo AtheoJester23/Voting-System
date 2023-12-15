@@ -1,0 +1,173 @@
+Body{
+    font-family: 'Mulish', sans-serif;
+    padding: 15px;
+
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0px 30px 0px 30px;
+    margin-top: 20px;
+}
+
+.Options{
+    display: flex;
+    flex-direction: row;
+}
+
+.Register{
+    border: solid;
+    border-color: #3b6ea7;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: 	#3b6ea7;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.15s, color 0.15s;
+    user-select: none;
+}
+
+.Register:hover{
+    background-color: #1c4478;
+    color: white;
+}
+
+.AdminOrStudent{
+    background-color: white;
+    /* border: solid; */
+    border-radius: 20px;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    z-index: 2100;
+    padding: 15px;
+    box-shadow: 0px 1px 3px #888888;
+    display: none;
+    opacity: 0;
+    user-select: none;
+}
+
+.AdminOrStudent button{
+    background-color: #1c4478;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s;
+}
+
+.AdminOrStudent button:hover{
+    background-color: #c0e6f3;
+    color: #1c4478;
+    border-color: #1c447800;
+    border: none;
+    box-shadow: inset 2px 2px 1px 0 rgba(0, 0, 0, 0.2), inset -2px -2px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.Login{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.bckgrnd{
+    margin-top: 30px;
+    /* border: solid; */
+    height: 410px;
+    position: relative;
+    border-radius: 50px 0px 0px 0px;
+    z-index: 2000;
+    background-color: #c0e6f3;
+}
+
+.Background{
+    /* width: ; */
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    margin: 0 auto;
+    height: 330px;
+}
+
+.Topic{
+    color: #1c4478;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.About{
+    /* border: solid; */
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 420px;
+}
+
+.Lorem{
+    margin-top: 20px;
+    color: #1c4478;
+}
+
+.Register2{
+    border: none;
+    padding: 10px 15px;
+    background-color: #1c4478;
+    color: #c0e6f3;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.Register2:hover{
+    background-color: #c0e6f3;
+    color: #1c4478;
+    border-color: #1c447800;
+    border: solid;
+    border-width: 0.25px;
+    box-shadow: inset 2px 2px 1px 0 rgba(0, 0, 0, 0.2), inset -2px -2px 1px 0 rgba(255, 255, 255, 0.5);
+
+
+}
+
+@media (min-width: 320px) and (max-width: 1422px){
+    .Background{
+        height: 420px;
+    }
+    .bckgrnd{
+        height: 1400px;
+    }
+    body{
+        font-size: xxx-large;
+    }
+    .About{
+        width: 700px;
+    }
+    .AdminOrStudent button{
+        height: 100px;
+        font-size: xx-large;
+        padding: 20px 40px;
+        border-radius: 30px;
+    }
+    .AdminOrStudent{
+        margin-top: 60px;
+    }
+    .Topic{
+        font-size: 90px;
+    }
+    .Register2{
+        font-size: xx-large;
+        padding: 20px 40px;
+        border-radius: 100px;
+    }
+    .Register{
+        padding: 20px 40px;
+        border-radius: 60px;
+    }
+}

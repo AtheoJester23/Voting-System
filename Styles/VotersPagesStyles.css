@@ -1,0 +1,395 @@
+body{
+    background-color: #e4e5f1;
+    font-family: 'Mulish', sans-serif;
+    height: 2000px;
+}
+
+.FirstPageheader{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 7.5%;
+    background-color: 	#e4e5f1;
+    box-shadow: 0px 1px 3px #888888;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: 400;
+    /* opacity: 0; */
+}
+
+.Notif{
+    height: 25px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 6px;
+}
+
+.Notification:hover{
+    /* filter: brightness(150%); */
+    box-shadow: 0px 1px 3px #888888;
+    cursor: pointer;
+}
+
+.ProfilePic{
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.HeaderUserName{
+    margin-right: 30px;
+}
+
+.EnterProfile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.Side_Panel{
+    position: fixed;
+    width: 12%;
+    background-color: 	#eeeff2;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: 0px 1px 3px #888888;
+    display: grid;
+    grid-template-rows: 170px 345px 80px;
+    z-index: 401;
+    /* opacity: 0; */
+    /* justify-content: center; */
+    /* align-items: top; */
+}
+
+.BrandLogo{
+    height: 100px;
+    border-radius: 100%;
+    /* margin: 0 auto; */
+}
+
+.BNameLogo{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.Pages{
+    display: flex;
+    flex-direction: column;
+}
+
+.Pages button{
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    background-color: none;
+    /* color: black; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+
+.DashboardPage:hover,
+.VoteGuide:hover{
+    box-shadow: 0px 1px 3px #888888;
+    cursor: pointer;
+}
+
+.AddACandidate{
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.AddACandidate:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 3px #888888;
+}
+
+.ChangePositionTitleIcon{
+    height: 40px;
+    margin-right: -5px;
+    border-radius: 10px;
+}
+
+.ChangePositionTitleIcon:hover{
+    cursor: pointer;
+}
+
+.ChangePositionTitle{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    left: 370px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 3px #888888;
+    display: none;
+    opacity: 1;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-shrink: 0; */
+    white-space: nowrap;
+    z-index: 200;
+    /* width: 400px; */
+}
+
+.AddACandidateToPosition{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    left: 370px;
+    padding: 10px 10px;
+    box-shadow: 0px 1px 3px #888888;
+    display: none;
+    opacity: 1;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    z-index: 200;
+}
+
+.PositionOfCandidates{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.LogOutButton{
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    top: 92.5%;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.LogOutButton:hover{
+    background-color: #1c4478;
+    cursor: pointer;
+    color: #c0e6f3;
+
+
+
+}
+
+.PermaPosition{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.PermaPosition button{
+    height: 50px;
+    font-size: large;
+}
+
+.PermaPosition button:hover{
+    cursor: pointer;
+}
+
+.VotePage{
+    align-items: center;
+    justify-content: center;
+    background-color: #1c4478;
+    color: #c0e6f3;
+    box-shadow: 0px 1px 3px #888888;
+}
+
+.PageIconHome{
+    height: 15px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.PageDashboardComponents{
+    margin-top: 7%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.CandidatesGridList{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    row-gap: 20px;
+}
+
+.AddPos{
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1c4478;
+    color: white;
+}
+
+.AddPos:hover{
+    padding: 9px 14px;
+    background-color: #eeeff2;
+    cursor: pointer;
+    border: solid;
+    border-color: #1c4478;
+    border-width: 1px;
+    color: #1c4478;
+    box-shadow: 0px 1px 3px #888888;
+}
+
+.PositionAdding{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.AddingPositionPortion{
+    background-color: white;
+    position: absolute;
+    z-index: 199;
+    left: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #888888;
+    display: none;
+}
+
+fieldset input{
+    width: 100%;
+}
+
+.OptVotersPosition{
+    display: flex;
+    border: none;
+    border-width: 1px;
+    flex-direction: column;
+}
+
+
+.Scroll{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: auto;
+    /* grid-template-columns: 0px 200px 200px 200px 200px 200px 200px 200px; */
+    column-gap: 10px;
+    height: 340px;
+    padding-right: 50px;
+    background-color: #a1c5f5;
+    color: #a1c5f5;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    justify-content: left;
+}
+
+.PageVoteBox{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 3px #888888;
+    position: relative;
+    color: black;
+}
+
+.TextInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.StudentCouncilPosition{
+    margin: 5px 0px 5px 5px;
+    /* background-color: #1c4478; */
+    color: black;
+}
+
+.PositionNEdit{
+    display: flex;
+    flex-direction: row;
+}
+
+.EditButton1{
+    height: 30px;
+}
+
+.OptToEdit{
+    position: relative;
+}
+
+.EditButton1:hover{
+    cursor: pointer;
+}
+
+.Photo{
+    margin-top: 10px;
+    width: 160px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.OptVotersPosition Button{
+    margin-top: 10px;
+    height: 40px;
+}
+
+.HighlightName{
+    color: #1c4478;
+    margin-left: 7px;
+}
+
+@media (min-width: 320px) and (max-width: 1422px){
+    .Side_Panel{
+        width: 25%;
+    }
+
+    .Pages button{
+        font-size: xx-large;
+        padding: 80px 0px;
+    }
+    
+    .LogOutButton{
+        font-size: xx-large;
+    }
+
+    .header{
+        font-size: xx-large;
+    }
+
+    .PageDashboardComponents{
+        font-size: xx-large;
+        margin-top: 190px;
+        margin-left: 290px;
+    }
+
+    .CandidatesGridList{
+        grid-template-columns: 270px 250px;
+    }
+
+    .HeaderUserName{
+        font-size: xx-large;
+    }
+}

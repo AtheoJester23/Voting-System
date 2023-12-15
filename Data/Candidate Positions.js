@@ -1,0 +1,1 @@
+let CandidatePosition = JSON.parse(localStorage.getItem('PositionName'));

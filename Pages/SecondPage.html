@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Page</title>
+        <link rel="stylesheet" href="/Styles/CandidatePositionPageStyles.css ">
+    </head>
+    <body>
+        <div class = "FirstPageheader">
+            <!-- <img src="/Pictures/Icons/Notif.png" alt="" class="Notif"> -->
+            <div class = "EnterProfile">
+                <!-- <img src="/Pictures/Profile Pictures/Untitled-1.png" alt="" class = "ProfilePic"> -->
+                <div class = "HeaderUserName">Admin</div>
+            </div>
+        </div>
+
+        <div class = "Side_Panel">
+            <div class = "BNameLogo">
+                <img src="/Pictures/Icons/Brand.jpg" alt="" class = "BrandLogo">
+            </div>
+
+            <div class = "Pages">
+                <button class = "DashboardPage">
+                    <img src="/Pictures/Icons/Home.png" alt="" class = "PageIconHome">    
+                    Dashboard
+                </button>
+                <button class = "VotePage">Manage Candidates</button>
+                <!-- <button class = "VoteGuide">Voters Guideline</button> -->
+            </div>
+
+            <button class = "LogOutButton">LogOut</button>
+        </div>
+
+        <div class = "PageDashboardComponents">
+            <div class = "PositionOfCandidates">
+                <h1 class = "ThePosition"></h1>
+                <img src="/Pictures/Icons/Edit.png" alt="" class = "ChangePositionTitleIcon">
+                <img src="/Pictures/Icons/Add.jpg" alt="" class = "AddACandidate">
+                <div class = "AddACandidateToPosition">
+                    <legend style="text-align: center;">Candidate's Info: </legend>
+                    <div>Image Location: <input type="text" class="AddImg"></div>
+                    <div>Name: <input type="text" class = "AddName"></div>
+                    <div>Year Level: <input type="text" class = "AddYL"></div>
+                    <div>Course: <input type="text" class = "AddCourse"></div>
+                    <button class = "CancelAddCandToPos">Cancel</button>
+                    <button class = "ProceedAddCandToPos">Add</button>
+                </div>
+                <div class = "ChangePositionTitle">
+                    Rename Position:
+                    <input type="text" class="RenamePosTitle">
+                    <button class = "CancelEditPos">Cancel</button>
+                    <button class = "ProceedEditPos">Change</button>
+                </div>
+            </div>
+
+            
+            <div class = "CandidatesGridList">
+                
+            </div>
+        </div>
+
+        <script src="/Data/Candidate Positions.js"></script>
+        <script src="/Data/Candidates.js"></script>
+        <script src="/Data/Users.js"></script>
+        <!-- <script src="Javascript/Dashboard Script.js"></script> -->
+        <!-- <script src="Javascript/Admin Manage Candidates.js"></script> -->
+        <!-- <script src="/Javascript/FirstPageScripts.js"></script> -->
+        <script src="/Javascript/SecondPageScripts.js"></script>
+    </body>
+</html>

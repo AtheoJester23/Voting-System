@@ -1,0 +1,83 @@
+body{
+    background-color: #c0e6f3;
+    font-family: 'Mulish', sans-serif;
+}
+
+.ForAdminLogin{
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* width: 500px; */
+    /* border: solid; */
+    /* align-items: center; */
+}
+
+.sign_up{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    /* color: white; */
+}
+
+.Text{
+    margin: 20px 0px 10px 0px;
+}
+
+.ForAdminLogin input{
+    padding: 15px;
+    border: solid;
+    border-width: 0.5px;
+    border-radius: none;
+    width: 300px;
+    border-color: #1c4478;
+
+}
+
+.ForAdminLogin input:focus{
+    outline: none;
+}
+
+.ProceedAdmin{
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #1c4478;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.ProceedAdmin:hover{
+    background-color: #c0e6f3;
+    color: #1c4478;
+    border-color: #1c447800;
+    border: none;
+    box-shadow: inset 2px 2px 1px 0 rgba(0, 0, 0, 0.2), inset -2px -2px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 320px) and (max-width: 1422px){
+    .ForAdminLogin{
+        font-size: xxx-large;
+        top: 50%;
+        left: 50%;
+    }
+    .ForAdminLogin button{
+        height: 100px;
+        font-size: xx-large;
+    }
+    .ForAdminLogin input{
+        width: 500px;
+        height: 50px;
+        font-size: xx-large;
+    }
+    .sign_up{
+        font-size: xxx-large;
+    }
+}

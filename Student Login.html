@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Login</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="Styles/Login Student.css">
+    
+                
+    
+    </head>
+    <body>
+        <div class = "OverAllStudentLogin">
+            <div class = "Visuals">
+                <img src="Pictures/6974903_4428.jpg" alt="" class = "PictureStudentLogin">
+            </div>
+
+            <div class = "ForStudentLogin">
+                <div class = "TypeOfUser">
+                    Login as a Student User
+                </div>
+
+                <div class = "StudentInputs">
+                    <div class = "ToResize">
+                        <div class = "Text">
+                            Student Number 
+                        </div>
+
+                        <div class="StudentInpSection">
+                            <input type="text" placeholder="Ex. 2023500001" class = "StudentNumber">
+                        </div>
+                    </div>
+
+                    <div class = "ToResize">
+                        <div class = "Text">
+                            Password
+                        </div>
+
+                        <div class = "StudentInpSection">
+                            <input type="password" placeholder="*********" class = "StudentPassword">
+                            <div class = "ShowPasswordStudent">
+                                <input type="checkbox" onclick="myFunction()" class = "testing">
+                                <div class = "ShowPassDiv">Show Password</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class = "ProceedStudent">Login</button>
+
+            </div>
+        </div>
+
+        <script src="Data/Users.js"></script>
+        <script src="Javascript/Student Login.js"></script>
+
+        </body>
+</html>

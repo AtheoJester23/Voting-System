@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin: Manage Candidate
+        </title>
+        <!-- <link rel="stylesheet" href="Styles/Dashboard Styles.css"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Styles/Manage Candidates.css">
+    </head>
+    <body>
+        <div class = "header">
+            <div class = "EnterProfile">
+                <!-- <img src="Pictures/Profile Pictures/Untitled-1.png" alt="" class = "ProfilePic"> -->
+                <div class = "HeaderUserName">Admin</div>
+            </div>
+        </div>
+
+        <div class = "Side_Panel">
+            <div class = "BNameLogo">
+                <img src="Pictures/Icons/Brand.jpg" alt="" class = "BrandName">
+            </div>
+
+            <div class = "Pages">
+                <button class = "DashboardPage">
+                    <img src="Pictures/Icons/Home.png" alt="" class = "PageIconHome">    
+                    Dashboard
+                </button>
+                <button class = "VotePage">Manage Candidates</button>
+                <button class = "VoteGuide">Voters Guideline</button>
+            </div>
+
+            <button class = "LogOutButton">LogOut</button>
+        </div>
+
+        <div class = "DashboardComponents">
+            <h1>Student Council Candidates</h1>
+
+            <div class = "PositionAdding">
+                <button class = "AddPos">Add Position</button>
+                <button class = "EndVote">End Voting</button>
+                <div class = "AddingPositionPortion">
+                    Title: <input type="text" class = "PositionToBeAdded">
+                    <fieldset>
+                        <legend style="text-align: center;">First Candidate: </legend>
+                        <div>Image Location: <input type="text" class="FirstInputImg"></div>
+                        <div>Name: <input type="text" class = "FirstInputName"></div>
+                        <div>Year Level: <input type="text" class = "FirstInputYL"></div>
+                        <div>Course: <input type="text" class = "FirstInputCourse"></div>
+                        <button class = "CancelAddPos">Cancel</button>
+                        <button class = "ProceedAddPos">Add</button>
+                    </fieldset>
+                </div>
+            
+            </div>
+
+            <div class = "PermaPosition">
+                <button class = "FrstPage">Governor</button>
+                <button class = "ScndPage">Vice Governor</button>
+                <button class = "ThrdPage">Secretary</button>
+                <button class = "FrthPage">Deputy Secretary</button>
+                <button class = "FfthPage">Treasurer</button>
+                <button class = "SxthPage">Auditor</button>
+                <button class = "SvnthPage">Public Relation Officer</button>
+            </div>
+
+            <div class = "FinalResultAdmin">
+                <div class = "FinalResultTitleAdmin">Final Result:</div>
+                <div class = "TheWinners">
+                    <div class = "Winner1Admin">Governor: The Name</div>
+                    <div class = "Winner2Admin">Vice Governor: The Name</div>
+                    <div class = "Winner3Admin">Position: The Name</div>
+                    <div class = "Winner4Admin">Position: The Name</div>
+                    <div class = "Winner5Admin">Position: The Name</div>
+                    <div class = "Winner6Admin">Position: The Name</div>
+                    <div class = "Winner7Admin">Position: The Name</div>
+                </div>
+            </div>
+        
+        </div>
+
+        <script src="Data/Candidate Positions.js"></script>
+        <script src="Data/Candidates.js"></script>
+        <script src="Data/Users.js"></script>
+        <!-- <script src="Javascript/Dashboard Script.js"></script> -->
+        <script src="Javascript/Admin Manage Candidates.js"></script>
+    </body>
+</html>

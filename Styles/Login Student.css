@@ -1,0 +1,172 @@
+body{
+    background-color: #c0e6f3;
+    font-family: 'Mulish', sans-serif;
+}
+
+.ForStudentLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OverAllStudentLogin{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px #888888;
+    justify-content: center;
+    height: 500px;
+}
+
+.PictureStudentLogin{
+    height: 500px;
+}
+
+.Visuals{
+    display: flex;
+    justify-content: center;
+}
+
+.StudentInputs{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.TypeOfUser{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Text{
+    margin: 20px 0px 10px 0px;
+}
+
+.StudentNumber,
+.StudentPassword{
+    display: flex;
+    padding: 15px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: gray;
+    border-radius: none;
+    width: 1fr;
+}
+
+.ForStudentLogin input:focus{
+    outline: none;
+}
+
+.ProceedStudent{
+    padding: 10px;
+    margin-top: 35px;
+    background-color: #1c4478;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s;
+    display: block;
+    width: 55%;
+}
+
+.StudentInpSection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* .testing{
+    position: absolute;
+    top: 50px;
+    left: -140px;
+} */
+
+.ShowPasswordStudent{
+    display: grid;
+    grid-template-columns: 170px 200px;
+    position: absolute;
+    top: 55px;
+    left: -140px;
+    margin-left: 62px;
+    /* align-items: center; */
+}
+
+.ShowPassDiv{
+    margin-left: -65px;
+}
+
+.ProceedStudent:hover{
+    background-color: #c0e6f3;
+    color: #1c4478;
+    border-color: #1c447800;
+    border: none;
+    box-shadow: inset 2px 2px 1px 0 rgba(0, 0, 0, 0.2), inset -2px -2px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+@media (min-width: 320px) and (max-width: 1422px){
+    .OverAllStudentLogin{
+        height: 1080px;
+        display: flex;
+        padding: 0px 100px;
+    }
+
+    .TypeOfUser{
+        font-size: xxx-large;
+    }
+
+    .Text{
+        font-size: xx-large;
+    }
+    
+    .StudentInpSection{
+        width: 1fr;
+    }
+
+    .PictureStudentLogin{
+        display: none;
+    }
+    
+    .StudentNumber,
+    .StudentPassword{
+        display: flex;
+        height: 100px;
+        width: 1fr;
+        font-size: xx-large;
+    }
+    
+    .ShowPasswordStudent{
+        margin-top: 100px;
+        margin-left: 112px;
+        height: 50px;
+        font-size: xx-large;
+        grid-template-columns: 100px 1fr;
+    }
+
+    .ShowPassDiv{
+        width: 200px;
+        white-space: nowrap;
+        margin-left: -12px;
+    }
+
+    .StudentInputs{
+        width: 700px;
+    }
+
+    .ProceedStudent{
+        height: 100px;
+        font-size: xx-large;
+        margin-top: 100px;
+        width: 100%;
+    }
+}
