@@ -1,4 +1,17 @@
-const StudentsAccs = JSON.parse(localStorage.getItem('UsersInfo'));
+const StudentsAccs = [
+    {
+        StudNum: '2023500001',
+        StudPass: 'abcde',
+        Name: "Atheo Jester S. Baltazar",
+        Voted: false
+    },
+    {
+        StudNum: "2023500002",
+        StudPass: "123456",
+        Name: "John Carlo Rica",
+        Voted: false
+    }
+]
 
 SaveUserVoted();
 function SaveUserVoted(){
