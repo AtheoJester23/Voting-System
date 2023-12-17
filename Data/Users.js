@@ -1,6 +1,6 @@
 const StudentsAccs = JSON.parse(localStorage.getItem('UsersInfo'));
 
-
+SaveUserVoted();
 function SaveUserVoted(){
     localStorage.setItem('UsersInfo', JSON.stringify(StudentsAccs));
 }
